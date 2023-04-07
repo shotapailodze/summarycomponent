@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: Hanken Grotesk;
+    margin: auto;
+}
+
+.result {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0px 0px 30px 30px;
+    color: white;
+
+    width: 200px;
+    padding: 50px 50px 40px;
+    margin-right: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
